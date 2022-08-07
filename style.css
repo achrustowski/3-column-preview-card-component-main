@@ -208,11 +208,19 @@ div > button > a {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-inline: 4rem;
+  }
+}
+
+/* Padding responsive */
+@media (min-width: 100em) {
+  main {
+    padding-inline: 20rem;
   }
 }
 @media (min-width: 90em) {
   main {
-    padding-inline: 14rem;
+    padding-inline: 17rem;
   }
 }
 @media (max-width: 90em) {
@@ -222,31 +230,32 @@ div > button > a {
 }
 @media (max-width: 80em) {
   main {
-    padding-inline: 6rem;
+    padding-inline: 12rem;
   }
 }
 @media (max-width: 70em) {
   main {
-    padding-inline: 4rem;
+    padding-inline: 8rem;
   }
 }
 @media (max-width: 60em) {
   main {
-    padding-inline: 2rem;
+    padding-inline: 4rem;
   }
 }
 @media (max-width: 50em) {
   main {
-    padding-inline: 1rem;
+    padding-inline: 2rem;
   }
 }
 
+/* Mobile view */
 @media (max-width: 40em) {
   main {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-inline: 1rem;
+    padding-inline: 1.5rem;
     padding-block: 5rem;
   }
 
